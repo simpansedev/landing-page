@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useContext } from 'react'
-import {ThemeContext} from '../../context/theme'
-import Hero from '../../assets/images/hero2.png'
+import {ThemeContext} from '../context/theme'
+import Hero from '../assets/images/hero2.png'
 import { RiSunFill, RiMoonFill } from "react-icons/ri";
-import AboutUs from "../../components/home/about_us";
-import Project from '../../components/home/project'
-import Contact from '../../components/home/contact'
-import BtnTheme from '../../components/btn_theme'
+import AboutUs from "../components/home/about_us";
+import Project from '../components/home/project'
+import Contact from '../components/home/contact'
+import BtnTheme from '../components/btn_theme'
 
 export default function Home() {
   const dataContext = useContext(ThemeContext)

@@ -10,14 +10,6 @@ import { ThemeContextProvider } from "../context/theme";
 import { ScrollProvider } from "../context/scroll";
 
 const MyApp = ({ Component, pageProps }: AppProps)=>{
-  
-  useEffect(() => {
-    const {pathname} = Router
-    if(pathname == '/' ){
-        Router.push('/home')
-        // location.replace("/home")
-    }
-  },[]);
 
   return ( 
     <ScrollProvider>
