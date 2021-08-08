@@ -9,7 +9,7 @@ import Layout from "../layout/default";
 import { ThemeContextProvider } from "../context/theme";
 import { ScrollProvider } from "../context/scroll";
 
-const myApp = ({ Component, pageProps }: AppProps)=>{
+const MyApp = ({ Component, pageProps }: AppProps)=>{
   
   useEffect(() => {
     const {pathname} = Router
@@ -29,4 +29,4 @@ const myApp = ({ Component, pageProps }: AppProps)=>{
     </ScrollProvider>
   )
 }
-export default myApp
+export default MyApp
