@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
+
+$stroma: 'Stroma-Bold';
+$proxima: 'Proxima_nova_bold';
+$helvetica_neue: 'HelveticaNeue';
+$roboto: 'Roboto';
+$poppins: 'Poppins';
+$atkinson: 'Atkinson Hyperlegible';
+
+@font-face {
+  font-family: $roboto;
+}
+
+@font-face {
+  font-family: $poppins;
+}
+
+@font-face {
+  font-family: $atkinson;
+}
+
+@font-face {
+  font-family: $helvetica_neue;
+  src: local('HelveticaNeue'), url('../../fonts/HelveticaNeue.woff') format('woff');
+}
+
+@font-face {
+  font-family: $stroma;
+  src:local('Stroma-Bold'), url('../../fonts/Stroma-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: $proxima;
+  src: local('Proxima_nova_bold'), url('../../fonts/proxima_nova_bold-webfont.woff') format('woff');
+}
+
+@mixin roboto
+{ font-family: $roboto; }
+
+@mixin poppins
+{ font-family: $poppins; }
+
+@mixin atkinson
+{ font-family: $atkinson; }
+
+@mixin helvetica_neue
+{ font-family: $helvetica_neue; }
+
+@mixin stroma
+{ font-family: $stroma; }
+
+@mixin proxima
+{ font-family: $proxima; }

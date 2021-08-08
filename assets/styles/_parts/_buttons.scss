@@ -1,0 +1,15 @@
+@import '_colors.scss';
+
+@mixin button-warning
+{
+  border: 1px solid $warning;
+  background-color: $warning;
+  color: $primary;
+}
+
+@mixin button-white
+{
+  border: 1px solid $primary;
+  background-color: $white;
+  color: $primary;
+}

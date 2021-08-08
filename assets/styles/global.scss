@@ -1,0 +1,88 @@
+@import './_parts/colors';
+@import './_parts/layoutBreakpoints';
+@import './_parts/typographys';
+
+*:not(body) { transition: all .5s ease; }
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+.header {
+  &-blur {
+    backdrop-filter: blur(3px);
+  }
+  .logo {
+    @include stroma;
+  }
+  .menu {
+    @include stroma;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    page                                    */
+/* -------------------------------------------------------------------------- */
+// home
+.home {
+  position: relative;
+  &__image {
+    height: 50%;
+    padding-top: 50px;
+  }
+
+  &__text {
+    position: absolute;
+    top: 11%;
+    font-size: 88pt;
+    font-family: $atkinson;
+    text-align: center;
+    text-shadow: 0px 2px 7px #074a16;
+    color: #fff;
+  }
+
+  .home__content {
+    .about__us {
+      .title {
+        @include stroma;
+        font-size: 20px;
+      }
+    }
+    .project {
+      .title {
+        @include stroma;
+        font-size: 20px;
+      }
+    }
+    .contact {
+      .title {
+        @include stroma;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@include phone {
+  .home {
+    position: relative;
+    &__image {
+      height: 70%;
+      padding-top: 50px;
+    }
+  
+    &__text {
+      position: absolute;
+      top: 0%;
+      font-size: 60px;
+      overflow: hidden;
+      font-family: "Atkinson Hyperlegible";
+      text-align: center;
+      text-shadow: 0px 2px 7px #074a16;
+      color: #fff;
+    }
+
+    .image {
+      // top: 55px !important;
+      // min-height: 82% !important;
+    }
+  }
+}
