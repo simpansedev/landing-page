@@ -9,13 +9,13 @@ const Header = () => {
   const {scroll} = dataContext
   
   useEffect(() => {
-    console.log(themeContext)
+    // console.log(themeContext)
     return () => {dataContext}
   }, [dataContext, themeContext])
 
   return (
     <div 
-      className={`header z-10 w-full py-4 px-4  
+      className={`header hidden z-10 w-full py-4 px-4  
         ${scroll > 400 ? `flex flex-row justify-between items-center fixed ${isLight ? light.bg_color : light.bg_color} header-blur shadow-2xl bg-opacity-80` 
         : 'hidden absolute bg-transparent'}`
       }

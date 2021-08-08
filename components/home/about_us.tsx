@@ -7,7 +7,15 @@ const AboutUs = ({text_color}: any) => {
         Tentang Kami
       </span>
       <div className={`content mt-2 ${text_color}`}>
-        kami lulusan unpam tahun 2019.
+        <div className="text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laudantium deserunt quo ipsam iusto temporibus eos excepturi nam ipsum. Vitae ipsum recusandae quod magnam, omnis quas eligendi nostrum voluptatem animi.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laudantium deserunt quo ipsam iusto temporibus eos excepturi nam ipsum. Vitae ipsum recusandae quod magnam, omnis quas eligendi nostrum voluptatem animi.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laudantium deserunt quo ipsam iusto temporibus eos excepturi nam ipsum. Vitae ipsum recusandae quod magnam, omnis quas eligendi nostrum voluptatem animi.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laudantium deserunt quo ipsam iusto temporibus eos excepturi nam ipsum. Vitae ipsum recusandae quod magnam, omnis quas eligendi nostrum voluptatem animi.
+        </div>
+        <div className="team">
+
+        </div>
       </div>
     </div>
   )

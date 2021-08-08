@@ -7,7 +7,7 @@ const Contact = ({text_color}: any) => {
         Kontak Kami
       </span>
       <div className={`content mt-2 ${text_color}`}>
-        0
+        089653674186
       </div>
     </div>
   )

@@ -2,7 +2,7 @@ import App, {AppContext, AppProps} from 'next/app'
 import Router from "next/router"
 import React, { useEffect, useState } from 'react'
 import redirectTo from "../helpers/redirect-to"
-import  "../assets/styles/globals.css";
+import  "../assets/styles/app.css";
 import "../assets/styles/global.scss";
 import 'tailwindcss/tailwind.css'
 import Layout from "../layout/default";

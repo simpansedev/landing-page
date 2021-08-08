@@ -28,7 +28,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={`home__image shadow-md flex flex-col items-center justify-end w-full ${isLight ? 'home__image-light bg-gradient-to-r from-green-600 via-green-300 to-green-600' : 'home__image-dark bg-gradient-to-r from-gray-800 via-gray-500 to-gray-800'}`}
+      {/* top */}
+      <div className={`home__image shadow-md flex flex-col items-center justify-end w-full ${isLight ? 'home__image-light bg-gradient-to-r from-green-600 via-green-300 to-green-600' : 'home__image-dark bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800'}`}
       >
         <div className="home__text">Simpanse Dev</div>
         <Image 
@@ -39,7 +40,7 @@ export default function Home() {
         />
       </div>
 
-      <div className={`home__content mx-2 mt-8`}>
+      <div className={`home__content mx-6 mt-8`}>
         <AboutUs text_color={`${isLight ? 'text-gray-800' : 'text-white'}`}/>
         <Project text_color={`${isLight ? 'text-gray-800' : 'text-white'}`}/>
         <Contact text_color={`${isLight ? 'text-gray-800' : 'text-white'}`}/>
